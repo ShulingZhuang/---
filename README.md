@@ -11,6 +11,23 @@
 - 修正后的六帧奔跑动画：抬起前肢时仅后肢着地
 - Windows/macOS/Linux 安装脚本
 
+## 动画预览
+
+| 待机 | 招手 | 跳跃 |
+|:---:|:---:|:---:|
+| ![待机动画](docs/previews/idle.gif) | ![招手动画](docs/previews/waving.gif) | ![跳跃动画](docs/previews/jumping.gif) |
+| `idle` · 6 帧 | `waving` · 4 帧 | `jumping` · 5 帧 |
+
+| 向左移动 | 执行任务 | 向右移动 |
+|:---:|:---:|:---:|
+| ![向左移动动画](docs/previews/running-left.gif) | ![执行任务动画](docs/previews/running.gif) | ![向右移动动画](docs/previews/running-right.gif) |
+| `running-left` · 8 帧 | `running` · 6 帧 | `running-right` · 8 帧 |
+
+| 等待输入 | 完成待查看 | 失败或阻塞 |
+|:---:|:---:|:---:|
+| ![等待输入动画](docs/previews/waiting.gif) | ![完成待查看动画](docs/previews/review.gif) | ![失败或阻塞动画](docs/previews/failed.gif) |
+| `waiting` · 6 帧 | `review` · 6 帧 | `failed` · 8 帧 |
+
 ## 安装
 
 ### 从 Release 安装（推荐）
@@ -48,4 +65,3 @@ sha256sum spritesheet.webp
 ## 版权与再分发
 
 请先阅读 [NOTICE.md](NOTICE.md)。本仓库没有为角色名称、角色设计或美术素材授予开源许可。公开再分发前，请自行取得必要授权或专业法律意见。若尚未取得授权，建议仅使用 GitHub 私有仓库保存和同步。
-
